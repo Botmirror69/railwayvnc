@@ -1,4 +1,4 @@
-echo -e "$123\n$123\n" | sudo passwd
+echo -e "$123\n$123\n" | passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://github.com/MirroBot6996/railwayvnc/raw/main/ng.sh > /dev/null 2>&1
 chmod +x ng.sh
